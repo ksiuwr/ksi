@@ -1,3 +1,5 @@
-name: Your New Jekyll Site
+name: KSI
 markdown: redcarpet
 pygments: true
+author :
+  name : KSI
