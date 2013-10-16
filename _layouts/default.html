@@ -15,9 +15,9 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="/css/bootstrap.css" rel="stylesheet">
-    <link href="/css/main.css" rel="stylesheet" type="text/css" media="all">
+    <link href="{{site.baseurl}}/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/bootstrap.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/main.css" rel="stylesheet" type="text/css" media="all">
 
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
@@ -27,9 +27,7 @@
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
 
-    <!-- atom & rss feed -->
-    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
 
   </head>
 
@@ -45,13 +43,10 @@
             <div class="nav-collapse">
                 <ul class="nav">
                     <!--<li><a href="/about/">O nas</a></li>-->
-                    <li {% if page.site_type == 'news' %}class="active" {% endif %}><a href="/">Wydarzenia</a></li>
-                    <li {% if page.site_type == 'about' %}class="active" {% endif %}><a href="/about.html">O Nas</a></li>
-                    <li {% if page.site_type == 'zosia' %}class="active" {% endif %}><a href="/zosia/">ZOSIA</a></li>
-                    <li {% if page.site_type == 'contact' %}class="active" {% endif %}><a href="/contact.html">Kontakt</a></li>
-                    <!-- {% assign pages_list = site.pages %} -->
-                    <!-- {% assign group = 'navigation' %}
-                    {% include JB/pages_list %} -->
+                    <li {% if page.site_type == 'news' %}class="active" {% endif %}><a href="{{site.baseurl}}/">Wydarzenia</a></li>
+                    <li {% if page.site_type == 'about' %}class="active" {% endif %}><a href="{{site.baseurl}}/about.html">O Nas</a></li>
+                    <li {% if page.site_type == 'zosia' %}class="active" {% endif %}><a href="{{site.baseurl}}/zosia/">ZOSIA</a></li>
+                    <li {% if page.site_type == 'contact' %}class="active" {% endif %}><a href="{{site.baseurl}}/contact.html">Kontakt</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -83,7 +78,6 @@
     </footer>
 
     </article>
-
 
   </body>
 </html>

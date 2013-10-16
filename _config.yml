@@ -3,3 +3,4 @@ markdown: redcarpet
 pygments: true
 author :
   name : KSI
+baseurl: "http://iiuwr.github.io/ksi"
