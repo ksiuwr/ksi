@@ -24,7 +24,7 @@
         }
 
         .nav li:hover {
-            border-bottom: 4px solid #006699;
+            border-bottom: 4px solid #00669e;
         }
 
         article
@@ -61,7 +61,7 @@
 
 
         h1, h2, h3 {
-            color: rgb(187, 60, 60);
+            color: #00669e;
         }
 
         .thumbnail small {
