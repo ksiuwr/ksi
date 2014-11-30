@@ -3,4 +3,4 @@ markdown: redcarpet
 pygments: true
 author :
   name : KSI
-baseurl: /ksi/
+baseurl: /
