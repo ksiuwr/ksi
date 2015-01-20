@@ -1,6 +1,6 @@
 ---
 layout:	post
-title:	Wykłady KSI - Go: a simple way for polymorphism and structured programming
+title:	Wykłady KSI - Go - a simple way for polymorphism and structured programming
 date:	2015-01-02 12:31:00
 categories:	wydarzenia
 ---
