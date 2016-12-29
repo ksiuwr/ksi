@@ -7,16 +7,8 @@ site_type: contact
 ### Kontakt
 
 **Przewodniczący:**  
-Radosław Warzocha  
-radoslaw.warzocha (at) gmail.com
+Rafał Kaleta  
 
-**Wiceprzewodniczący:**  
-Mira Szewczyk  
-szewczyk.mira (at) gmail.com
-
-**Wiceprzewodniczący:**  
-Wiktor Mociun  
-wiktor.mociun (at) gmail.com
 
 **Adres Email KSI:** ksi (at) cs.uni.wroc.pl
 
